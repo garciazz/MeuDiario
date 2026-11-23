@@ -31,7 +31,8 @@ Para que a API funcione, é preciso criar Banco de Dados "diarioBD", utilizamos 
 
 Dentro do DBEaver, no usuário principal "postgres", clique botão direito sobre "Banco de Dados" -> "Criar novo Banco de Dados".
 Coloque o nome "diarioBD", com opção de modelo "template0".
-Crie uma nova conexão de Banco de dados, com o Database "diarioBD", e cole o Script de criação.
+Crie uma nova conexão de Banco de dados, com o Database "diarioBD", e cole o Script de criação.<br>
+Diagrama de Classes (https://drive.google.com/file/d/1H87UhKUHtq08ACPmhgSFwYzev3SnjA7t/view?usp=sharing) <br> 
 
 Copie o arquivo ".env API" para dentro da pasta diario-api, e renomeie para ".env", e coloque o USUARIO e SENHA do Administrador do banco de dados na linha 6.
 Execute os comandos: 
