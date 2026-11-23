@@ -1,3 +1,5 @@
+Alunos  Gabriel Benetti Berno    GRR20221553
+        Rafael Garcia Cerci      GRR20234604
 **#1 MeuDiário**
 Arquivos do App Meu Diário, para registro pessoal de humor e registro de sentimentos. 
 Nosso objetivo é contribuir com sua saúde mental através da reflexão, auxiliando você a reconhecer suas emoções e identificar as causas dos sentimentos através do Diário de Emoções, e acompanhamento da sua atividade pelo Relatório de Emoções.
