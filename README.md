@@ -21,11 +21,11 @@ Aplicação React - Framework React v19 e ReactNative v0.88.1 para tecnologia de
                 - Biblioteca SafeAreaContext v5.11.<br>
                 - Biblioteca Expo v58 para criação e gerenciamento de interfaces Web e Mobile.<br>
 
-**#3 Arquiteturas**
+**#3 Arquiteturas**<br>
 Api divididas em Controllers, Models, Routes. Arquivos de confiuração em "config".
 APP segue arquitetura MVC, com Models, Controlers, Views separanndo informaçãoes e organizando o projeto para manutenção futura.
 
-**#4 Execução da Aplicação**
+**#4 Execução da Aplicação**<br>
 #### Executando backend
 Para que a API funcione, é preciso criar Banco de Dados "diarioBD", utilizamos postgres.
 
@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-#### Executando Aplicação
+#### Executando Aplicação<br>
 Favor descompactar arquivo "diario-app.zip", não consegui upar a pasta.
 Copie o arquivo ".env App" para dentro da pasta diario-app, e renomeie para ".env", e coloque o IP da sua máquina local na linha 9.
 Execute os comandos:
@@ -49,7 +49,7 @@ npm install
 npx expo start -c
 ```
 
-**#5 Geração de APK**
+**#5 Geração de APK**<br>
 Execute os comandos
 ```
 npm install -g eas-cli
@@ -77,18 +77,18 @@ eas build -p android --profile preview
     -> Se perguntar, deseja criar uma KeyStore agora? Digite Yes
     -> Dica, vai demorar um pouco pra executar, no final aparecerá um link para baixar o arquivo APK.
 
-**#6 Requisitos de Qualidade**
+**#6 Requisitos de Qualidade**<br>
 Interface distribuída, sem muitos componentes clicáveis perto um do outro.
 Separação das camadas da arquitetura é uma boa prática para manutenção dos projetos.
 
-**#7 Requisitos de segurança e proteção de dados adotados**
+**#7 Requisitos de segurança e proteção de dados adotados**<br>
 O banco de dados não guarda a senha do usuário, ele guarda um hash da senha.
 API configurada com Token de acesso, para controle de sessão, dificultando acesso de pessoas não autorizadas.
 Usuário consegua acessar apenas informações de seu próprio ID, implementado na Aplicação.
 Usuário deve permitir a coleta e processamento de suas informações de acordo com a LGPD.
 O usuário pode apagar sua própria conta de usuário. Implementado na Aplicação.
 
-**#8 Interface, IHC e UX**
+**#8 Interface, IHC e UX**<br>
 Recomendação 3- Fazer perguntas reflexivas fáceis sobre os registros.
   Tela registro de Emoções com emojis, e pergunta descritiva.
 
@@ -116,10 +116,10 @@ Recomendação 97 - Revelar conexões, padrões, tendencias e comparações entr
 Recomendações 100 - Utilizar ícones acompanhados de rótulos e textos.
   Tela Registro de Emoções, Personalização de Tema.
 
-**#9 Criatividade**
+**#9 Criatividade**<br>
   Nada
 
-**#10 Divisão do Trabalho**
+**#10 Divisão do Trabalho**<br>
 
 Membro     Telas     Código do aplicativo(React Native)     Código das APIs,BD       Itens do documento
 Gabriel    Login                                              Estrutura Banco         Itens de Segurança
@@ -130,6 +130,7 @@ Rafael    Diário             Visualização e Ajustes                          
           Relatório            GitHub                                                 Geração de APK       
           Privacidade
         Personalizar Tema
+<br>
         
 Tela Inicial do APP. (https://drive.google.com/file/d/14pz9AQ6r8NnXWRijBnfPTPDp0SNjNYty/view?usp=drive_link)
 
