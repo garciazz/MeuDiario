@@ -1,25 +1,25 @@
-Alunos  Gabriel Benetti Berno    GRR20221553
+Alunos  Gabriel Benetti Berno    GRR20221553<br>
         Rafael Garcia Cerci      GRR20234604
 
 **#1 MeuDiário**<br>
 Arquivos do App Meu Diário, para registro pessoal de humor e registro de sentimentos. 
-Nosso objetivo é contribuir com sua saúde mental através da reflexão, auxiliando você a reconhecer suas emoções e identificar as causas dos sentimentos através do Diário de Emoções, e acompanhamento da sua atividade pelo Relatório de Emoções.
-Indicado para pessoas desejam um desenvolvimento pessoal e emocional.
-Contém os arquivos de projeto da API, e da Aplicação ReactNative.
+Nosso objetivo é contribuir com sua saúde mental através da reflexão, auxiliando você a reconhecer suas emoções e identificar as causas dos sentimentos através do Diário de Emoções, e acompanhamento da sua atividade pelo Relatório de Emoções.<br>
+Indicado para pessoas desejam um desenvolvimento pessoal e emocional.<br>
+Contém os arquivos de projeto da API, e da Aplicação ReactNative.<br>
 
-**#2 Tecnologias**
-Banco de Dados postgres para persistência de dados.
-Aplicação api - Biblioteca Express para tratamento de requisição e respostas HTTP.
-              - Biblioteca bcryptjs para criação de hashes.
-              - Biblioteca pg para comunicação com o banco Postgres.
-              - Biblioteca jsonWebToken para gerenciamento da sessão de usuários.
-Aplicação React - Framework React v19 e ReactNative v0.88.1 para tecnologia de Interfaces.
-                - Bibliotecas Platform para detectar a plataforma do dispositivo du usuário.
-                - Bibliotecas UseEffect, UseState para comunicar dados a interface, troca de telas.
-                - Bibliotecas StyleSheet, Text, View para formatação do estilo e exibição dos componentes.
-                - Biblioteca SecureStore para guardar tokens.
-                - Biblioteca SafeAreaContext v5.11.
-                - Biblioteca Expo v58 para criação e gerenciamento de interfaces Web e Mobile.
+**#2 Tecnologias**<br>
+Banco de Dados postgres para persistência de dados.<br>
+Aplicação api - Biblioteca Express para tratamento de requisição e respostas HTTP.<br>
+              - Biblioteca bcryptjs para criação de hashes.<br>
+              - Biblioteca pg para comunicação com o banco Postgres.<br>
+              - Biblioteca jsonWebToken para gerenciamento da sessão de usuários.<br>
+Aplicação React - Framework React v19 e ReactNative v0.88.1 para tecnologia de Interfaces.<br>
+                - Bibliotecas Platform para detectar a plataforma do dispositivo du usuário.<br>
+                - Bibliotecas UseEffect, UseState para comunicar dados a interface, troca de telas.<br>
+                - Bibliotecas StyleSheet, Text, View para formatação do estilo e exibição dos componentes.<br>
+                - Biblioteca SecureStore para guardar tokens.<br>
+                - Biblioteca SafeAreaContext v5.11.<br>
+                - Biblioteca Expo v58 para criação e gerenciamento de interfaces Web e Mobile.<br>
 
 **#3 Arquiteturas**
 Api divididas em Controllers, Models, Routes. Arquivos de confiuração em "config".
